@@ -9,6 +9,7 @@ const (
 )
 
 type Payment struct {
+	Type PaymentType
 	Amount float64
 	Sender string
 	Reviever string
